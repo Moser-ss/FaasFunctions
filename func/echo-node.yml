@@ -1,0 +1,9 @@
+provider:  
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  echo-node:
+    lang: node
+    handler: ./echo-node
+    image: mosersts/faasfunc:echo-node

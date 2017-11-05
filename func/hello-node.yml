@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  hello-node:
+    lang: node
+    handler: ./hello-node
+    image: mosersts/faasfunc:hello-node
