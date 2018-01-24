@@ -6,3 +6,4 @@ Neptun Base
 Yavin-4 Base
 Cardif Base
 Lothal
+Kamino
